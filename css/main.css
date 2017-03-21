@@ -360,21 +360,33 @@ blockquote {
       margin-left: 10px;
       border-left: 3px solid #ddd;
       padding-left: 20px; }
-      .comments ul li > p:first-child {
-        font-weight: bold;
+      .comments ul li + li {
         margin-top: 20px; }
       .comments ul li p {
-        margin: 15px 0; }
+        margin: 10px 0; }
   .comments h2 {
     font-size: 22px; }
   .comments h3 {
     font-size: 18px; }
   .comments .comment {
-    margin: 20px 0; }
-    .comments .comment h5 {
+    margin: 25px 10px; }
+    .comments .comment .commenter {
+      border-bottom: 5px solid #ddd;
+      display: inline-block;
+      line-height: 0.6;
+      font-family: "News Cycle", sans-serif;
+      font-weight: bold;
+      font-size: 16px;
       margin: 10px 0; }
-      .comments .comment h5 a {
+      .comments .comment .commenter a {
         border: none; }
+    .comments .comment .date {
+      margin-left: 20px;
+      font-size: 14px;
+      font-family: "News Cycle", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px; }
   .comments textarea {
     margin: 10px 0;
     background: transparent;
