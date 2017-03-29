@@ -265,7 +265,8 @@ article .meta .date + .location {
   align-items: flex-start;
   justify-content: center; }
   .photo-small img {
-    flex: 0 0 70%; }
+    flex: 0 0 70%;
+    width: 70%; }
 
 a {
   text-decoration: none; }
