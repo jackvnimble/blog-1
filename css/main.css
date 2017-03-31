@@ -127,8 +127,10 @@ img + p {
       .post .post-content ul li:before {
         content: "- "; }
 
-article header h2 {
-  margin-bottom: 5px; }
+article header {
+  margin-bottom: 30px; }
+  article header h2 {
+    margin-bottom: 5px; }
 
 article footer {
   margin-top: 40px; }
