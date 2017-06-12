@@ -317,36 +317,16 @@ blockquote {
   width: 40px;
   border-top: 3px solid #222; }
 
-@media (max-width: 940px) {
-  .box-content, .header {
-    width: auto;
-    margin: 0 10px; }
-  .items {
-    margin: 0; }
-    .items .item {
-      flex: 0 0 100%; }
-      .items .item .item-content {
-        margin: 0; }
-        .items .item .item-content .date {
-          margin-right: 20px; }
-  blockquote {
-    margin-left: -10px;
-    border-width: 10px;
-    margin-right: 0;
-    padding-left: 20px;
-    padding-right: 20px; }
-  .photo-left-pull, .photo-right-pull, .photo-right-pull-tall {
-    float: none;
-    margin: 0;
-    width: 100%; }
-    .photo-left-pull .photo, .photo-right-pull .photo, .photo-right-pull-tall .photo {
-      margin: 0; }
-  .photo-small {
-    margin: 40px 0;
-    display: block; }
-    .photo-small img {
-      flex: none;
-      width: 100%; } }
+figure {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0; }
+  figure figcaption {
+    font-size: 14px;
+    font-family: "News Cycle", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px; }
 
 .comments {
   max-width: 600px;
@@ -409,3 +389,43 @@ blockquote {
     margin-top: 30px; }
     .comments .comment-instructions p {
       margin: 10px 0; }
+
+@media (max-width: 940px) {
+  .box-content, .header {
+    width: auto;
+    margin: 0 10px; }
+  .items {
+    margin: 0; }
+    .items .item {
+      flex: 0 0 100%; }
+      .items .item .item-content {
+        margin: 0; }
+        .items .item .item-content .date {
+          margin-right: 20px; }
+  blockquote {
+    margin-left: -10px;
+    border-width: 10px;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .photo-left-pull, .photo-right-pull, .photo-right-pull-tall {
+    float: none;
+    margin: 0;
+    width: 100%; }
+    .photo-left-pull .photo, .photo-right-pull .photo, .photo-right-pull-tall .photo {
+      margin: 0; }
+  .photo-small {
+    margin: 40px 0;
+    display: block; }
+    .photo-small img {
+      flex: none;
+      width: 100%; }
+  figure {
+    margin-bottom: 40px; }
+    figure figcaption {
+      font-size: 14px;
+      font-family: "News Cycle", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 10px;
+      margin: 10px 0; } }
