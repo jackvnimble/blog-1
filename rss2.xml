@@ -8,8 +8,50 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>thoughts and ideas and essays by daiyi; unrefined brain-to-internet pipe; public journaling</description>
-    <pubDate>Mon, 12 Jun 2017 19:23:09 GMT</pubDate>
+    <pubDate>Tue, 11 Jul 2017 00:53:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>so I can work longer, so I can earn more,</title>
+      <link>http://daiyi.co/blog/2017/07/11/so-I-can-work-longer-so-I-can-earn-more/</link>
+      <guid>http://daiyi.co/blog/2017/07/11/so-I-can-work-longer-so-I-can-earn-more/</guid>
+      <pubDate>Tue, 11 Jul 2017 06:49:15 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;This song has been on my mind.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player
+      
+      </description>
+      
+      <content:encoded><![CDATA[<p>This song has been on my mind.</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228441637&amp;color=00bb93&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<p>I will save you the experience of listening to it! Spoilers: it’s some trashy EDM about classical bottomless recursion:</p>
+<blockquote>
+<p>I do coke,<br>  so I can work longer,<br>  so I can earn more,<br>  so I can do more coke.</p>
+</blockquote>
+<h2 id="—"><a href="#—" class="headerlink" title="—"></a>—</h2><p>I was talking to someone I met at my first <a href="http://www.berlinminijam.de" target="_blank" rel="external">game jam</a> (!!!), and he responded to my usual yearnings for mountains immediately by identifying it as an addiction. I felt pretty put off by this because addiction is a word for bad things, but a couple days later it came up in my thoughts again. I am dependent on movement and freedom for happiness and I feel withdrawal when I don’t have these things, no matter how many other social/intellectual/career/emotional/artistic needs I’m hitting.</p>
+<blockquote>
+<p>I <code>{ exercise | hang out in nature | chill in mountains }</code>,<br>  so I can work longer,<br>  so I can earn more,<br>  so I can have longer gaps between soul-consuming full-time employment to <code>{ exercise | hang out in nature | chill in mountains }</code>.</p>
+</blockquote>
+<h2 id="—-1"><a href="#—-1" class="headerlink" title="—"></a>—</h2><p>I am suspicious of a lot of the public concern over “work/life balance” and “self-care” and the entire category of nice words symbolising nice ideas that are starting to grate on me from corporate overuse. It’s to the industry’s benefit if people recursed between being healthy and working more, so they have their own non-selfless incentives to loudly wave around the banners of self-care.</p>
+<p>Yes a lot of individuals actually care about taking care of themselves. But even then, to what end? I’m concerned that for a lot of people, there isn’t much more than</p>
+<blockquote>
+<p>I <code>maintain this meat vessel of my consciousness</code>,<br>  so I can work longer,<br>  so I can earn more,<br>  so I can <code>continue maintaining this meat vessel of my consciousness</code>.</p>
+</blockquote>
+<p>We’re all robots already! Nothing has changed in the last milleniums, we’re still all shackled to labor except we’re ,,shipping stuff,, and ,,creating experiences,, instead of moving around dirt. We occasionally have some friends who leave their solid and stable white-collar office careers to be carpenters and farmers. This sounds super cute, but from my perspective, my dad spent most of his life working his ass off to not be a carpenter and farmer. This context makes these things a little weird for me.</p>
+<p>At this point I think I’m solidly in softcore existential crisis mode :^) Anyway I’m having a lot of fun learning clojurescript</p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">(<span class="name"><span class="builtin-name">defn</span></span> freedom []</div><div class="line">  (<span class="name"><span class="builtin-name">cons</span></span> (<span class="name">rand-nth</span> [<span class="symbol">:nature</span> <span class="symbol">:mountains</span> <span class="symbol">:movement</span>]) (<span class="name"><span class="builtin-name">lazy-seq</span></span> (<span class="name">freedom</span>))))</div><div class="line"></div><div class="line">(<span class="name"><span class="builtin-name">defn</span></span> life []</div><div class="line">  (<span class="name"><span class="builtin-name">cons</span></span> (<span class="name"><span class="builtin-name">cons</span></span> <span class="symbol">:work</span> (<span class="name"><span class="builtin-name">take</span></span> <span class="number">5</span> (<span class="name">freedom</span>))) (<span class="name">life</span>)))</div><div class="line"></div><div class="line">(<span class="name">life</span>)</div></pre></td></tr></table></figure>
+<p>Clojure(/script) is a language and toolchain that I keep forgetting no one actually knows about because I spent most of my time these days deeply lodged in the loving nest of the clojure community. When I crawl out of this nest I get a lot of scepticism concerning my current life trajectory, like “why would you spend so much time on such an obscure thing when you could be learning a useful skill???” (the same flavour of scepticism I got a lot in Serbia where locals I met were like “why did you come here if you could literally go anywhere???”)</p>
+<p>On one hand, why do anything at all? jkjk I’m not actually a nihilist those people are terrifying. The process of learning a language/toolchain/specialisation is transferable and does feel less insurmountable and more efficient every time, so there’s that clasic “learning to learn” thing. But also learning itself has intrinsic value, kinda like how art has intrinsic value because we decided so.</p>
+<p>Learning, like art and music and socialising and mountains, fills in the spaces between <code>maintaining the meat vessel of your consciousness</code> and <code>work</code>ing, to make things nice.</p>
+<p>It’s fun.</p>
+<p>I have to be careful about trying to have too much fun.</p>
+<p><img src="20170710.jpg" alt="comic"></p>
+]]></content:encoded>
+      
+      <comments>http://daiyi.co/blog/2017/07/11/so-I-can-work-longer-so-I-can-earn-more/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>What am I reading? (April/May 2017)</title>
@@ -72,7 +114,7 @@
 <p>Anyway, say hi if you’re in Berlin, I don’t have the budget to eat out but we can enjoy the LOVELY, PREDICTABLE, SUNNY BERLIN WEATHER with a park/canal/river stroll or you can come over and I can test my vegetarian cooking on you :D :D :D</p>
 <p>And to conclude, a toast to a temporary end to my travels, here’s some thoughts from Borges on mortality:</p>
 <blockquote>
-<p>There is a nearby street forbidden to my step,<br>There is a mirror that has seen me for the last time,<br>There is a door I have shut until the end of the world.<br>Among the books in my library<br>There are some I shall never repoen.</p>
+<p>There is a nearby street forbidden to my step,<br>There is a mirror that has seen me for the last time,<br>There is a door I have shut until the end of the world.<br>Among the books in my library<br>There are some I shall never reopen.</p>
 <p><cite>(Limits, Borges)</cite></p>
 </blockquote>
 ]]></content:encoded>
@@ -408,9 +450,9 @@
       <description>
       
         &lt;p&gt;&lt;strong&gt;or, justification for satisfying annual urge to completely revamp web presence.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I am inspired by the promises of an &lt;a href=&quot;https://indieweb.org/why&quot;&gt;Indie Web&lt;/a&gt;. Owning your data, cool. A single source of truth to your content and identity, nice. Possibility of sinking countless hours into configuring your own corner of the internet, ok you got me there.&lt;/p&gt;
+&lt;p&gt;I am inspired by the promises of an &lt;a href=&quot;https://indieweb.org/why&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Indie Web&lt;/a&gt;. Owning your data, cool. A single source of truth to your content and identity, nice. Possibility of sinking countless hours into configuring your own corner of the internet, ok you got me there.&lt;/p&gt;
 &lt;p&gt;I’m hearing some rattling in my internet social spheres about how content silos are making the internet more homogeneous, forcing you to conform and contort your thoughts into prescribed formatting, that force of nature that causes experts in their fields to blast out 50-part tweetstorms that should be written in an article instead. Hey you sound exactly like the indiewebcamp people!&lt;/p&gt;
-&lt;p&gt;Go &lt;a href=&quot;https://indieweb.org/&quot;&gt;check it out&lt;/a&gt;. They’re nice, too (:&lt;/p&gt;
+&lt;p&gt;Go &lt;a href=&quot;https://indieweb.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;check it out&lt;/a&gt;. They’re nice, too (:&lt;/p&gt;
       
       </description>
       
